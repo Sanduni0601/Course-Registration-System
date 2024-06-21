@@ -1,13 +1,16 @@
-const express = require('express');
-const router = express.Router();
-const UserController = require('../controller/userController');
-const { authenticateUser } = require('../middleware/auth');
+// User.js in models folder
+const mongoose = require('mongoose');
 
-// Routes accessible to both students and admin
-router.post('/register', UserController.register);
-router.post('/login', UserController.login);
-router.post('/logout', UserController.logout);
+const userSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  role: { type: String, enum: ['student', 'admin'], default: 'student' },
+  fullName: { type: String },
+  nicNumber: { type: String },
+  contactNumber: { type: String },
+  address: { type: String },
+  birthday: { type: Date }
+});
 
-router.post('/register-course', authenticateUser, UserController.registerForCourse);
-
-module.exports = router;
+module.exports = mongoose.model('User', userSchema);
