@@ -1,106 +1,53 @@
-.add {
-  background-color: #fff1c1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+body {
+    background-color: #f7e7b3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.add .div {
-  background-color: #fff1c1;
-  width: 1440px;
-  height: 1024px;
-  position: relative;
+.container {
+    text-align: center;
 }
 
-.add .university-of {
-  position: absolute;
-  width: 197px;
-  height: 197px;
-  top: 40px;
-  left: 622px;
-  object-fit: cover;
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
 }
 
-.add .text-wrapper {
-  position: absolute;
-  width: 564px;
-  top: 257px;
-  left: 438px;
-  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
+h1 {
+    font-size: 24px;
+    color: #333;
 }
 
-.add .text-wrapper-2 {
-  position: absolute;
-  width: 454px;
-  top: 307px;
-  left: 494px;
-  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-.add .group {
-  width: 467px;
-  left: 157px;
-  position: absolute;
-  height: 79px;
-  top: 512px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.add .overlap-group {
-  position: relative;
-  height: 81px;
-  top: -1px;
-  left: -1px;
-  background-color: #ffe485;
-  border-radius: 10px;
-  border: 1px solid;
-  border-color: #000000;
+thead th {
+    background-color: #d4a73c;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
-.add .select {
-  position: absolute;
-  width: 116px;
-  height: 31px;
-  top: 23px;
-  left: 111px;
+tbody td {
+    background-color: #f7e7b3;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
-.add .chevron-down {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 29px;
-  left: 378px;
-}
-
-.add .overlap-wrapper {
-  width: 243px;
-  left: 761px;
-  position: absolute;
-  height: 79px;
-  top: 512px;
-}
-
-.add .text-wrapper-3 {
-  position: absolute;
-  width: 120px;
-  top: 24px;
-  left: 56px;
-  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+tbody tr:nth-child(even) td {
+    background-color: #ebd89b;
 }
