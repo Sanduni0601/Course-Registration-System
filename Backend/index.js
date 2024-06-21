@@ -5,6 +5,7 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
 const usersRouter = require('./routes/users');
+const coursesRouter = require('./routes/courses');
 
 dotenv.config();
 const app = express();
@@ -31,6 +32,7 @@ app.use(session({
 }));
 
 app.use('/api/users', usersRouter);
+app.use('/api/courses', coursesRouter);
 
 const port = process.env.PORT || 3045;
 app.listen(port, () => {
