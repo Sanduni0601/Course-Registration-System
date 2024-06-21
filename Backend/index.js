@@ -6,6 +6,9 @@ const MongoStore = require('connect-mongo');
 
 const usersRouter = require('./routes/users');
 const coursesRouter = require('./routes/courses');
+const mlRouter = require('./routes/ml');
+const { bot, adapter } = require('./ml/chatbot');
+
 
 dotenv.config();
 const app = express();
@@ -33,6 +36,8 @@ app.use(session({
 
 app.use('/api/users', usersRouter);
 app.use('/api/courses', coursesRouter);
+app.use('/api/ml', mlRouter);
+
 
 const port = process.env.PORT || 3045;
 app.listen(port, () => {
