@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals 2.css" />
-    <link rel="stylesheet" href="style 2.css" />
-  </head>
-  <body>
-    <div class="login">
-      <div class="div">
-        <div class="overlap">
-          <div class="group">
-            <div class="overlap-group">
-              <div class="overlap-group-wrapper">
-                <div class="div-wrapper"><div class="text-wrapper"><a href="register.html">REGISTER</a></div></div>
-              </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration System</title>
+    <link rel="stylesheet" href="style 2.css">
+	<link rel="stylesheet" href="globals.css">
+</head>
+<body>
+    <div class="container">
+        <img src="university-of-vavuniya-logo-1024x1024-1-1.png" alt="University Logo" class="logo">
+        <h1>Course Registration System<br>University of Vavuniya</h1>
+        <div class="form-container">
+            <div class="tab">
+                <button class="tablinks active" onclick="openTab(event, 'register')">REGISTER</button>
+                <button class="tablinks" onclick="openTab(event, 'login')">LOGIN</button>
             </div>
-          </div>
-          <div class="overlap-wrapper">
-            <div class="overlap-2">
-              <div class="text-wrapper-2">LOGIN</div>
-              <div class="group-2">
-                <div class="overlap-group-2"><div class="text-wrapper-3">LOGIN</div></div>
-              </div>
-              <div class="frame">
-                <div class="frame-2"><div class="text-wrapper-4">Email</div></div>
-              </div>
-              <div class="frame-wrapper">
-                <div class="frame-2"><div class="text-wrapper-5">Password</div></div>
-              </div>
+            <div id="register" class="tabcontent" style="display: block;">
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <select id="role" name="role">
+                        <option value="" disabled selected>Role</option>
+                        <option value="student">Student</option>
+                        <option value="faculty">Faculty</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                    <button type="submit">REGISTER</button>
+                </form>
             </div>
-          </div>
+            <div id="login" class="tabcontent">
+                <form>
+                    <input type="email" id="login-email" name="email" placeholder="Email">
+                    <input type="password" id="login-password" name="password" placeholder="Password">
+                    <button type="submit">LOGIN</button>
+                </form>
+            </div>
         </div>
-        <img class="university-of" src="img/university-of-vavuniya-logo-1024x1024-1-1.png" />
-        <div class="text-wrapper-6">Course Registration System</div>
-        <div class="text-wrapper-7">University of Vavuniya</div>
-      </div>
     </div>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
+
