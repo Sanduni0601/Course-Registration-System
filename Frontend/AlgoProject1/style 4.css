@@ -1,0 +1,84 @@
+.course-details {
+  background-color: #fff1c1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.course-details .div {
+  background-color: #fff1c1;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.course-details .university-of {
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  top: 40px;
+  left: 622px;
+  object-fit: cover;
+}
+
+.course-details .text-wrapper {
+  position: absolute;
+  width: 564px;
+  top: 257px;
+  left: 438px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.course-details .text-wrapper-2 {
+  position: absolute;
+  width: 454px;
+  top: 307px;
+  left: 494px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.course-details .overlap-group {
+  position: absolute;
+  width: 1205px;
+  height: 570px;
+  top: 454px;
+  left: 103px;
+  background-color: #ffe385;
+}
+
+.course-details .text-wrapper-3 {
+  position: absolute;
+  top: 2px;
+  left: 83px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.course-details .text-wrapper-4 {
+  position: absolute;
+  top: 7px;
+  left: 657px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

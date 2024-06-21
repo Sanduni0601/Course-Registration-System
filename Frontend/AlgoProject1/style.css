@@ -1,0 +1,290 @@
+.register {
+  background-color: #fff1c1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register .div {
+  background-color: #fff1c1;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.register .overlap {
+  position: absolute;
+  width: 698px;
+  height: 577px;
+  top: 373px;
+  left: 373px;
+}
+
+.register .group {
+  position: absolute;
+  width: 696px;
+  height: 574px;
+  top: 3px;
+  left: 0;
+}
+
+.register .overlap-group {
+  position: relative;
+  width: 716px;
+  height: 594px;
+  top: -6px;
+  left: -10px;
+  background-image: url(./img/vector-2.svg);
+  background-size: 100% 100%;
+}
+
+.register .overlap-group-wrapper {
+  position: relative;
+  width: 333px;
+  height: 46px;
+  top: 14px;
+  left: 366px;
+}
+
+.register .div-wrapper {
+  position: relative;
+  width: 331px;
+  height: 46px;
+}
+
+.register .text-wrapper {
+  position: absolute;
+  top: 16px;
+  left: 134px;
+  font-family: "Arial Hebrew-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .overlap-wrapper {
+  position: absolute;
+  width: 698px;
+  height: 577px;
+  top: 0;
+  left: 0;
+}
+
+.register .overlap-2 {
+  position: relative;
+  width: 746px;
+  height: 627px;
+  top: -25px;
+  left: -25px;
+  background-image: url(./img/vector-1.svg);
+  background-size: 100% 100%;
+}
+
+.register .text-wrapper-2 {
+  position: absolute;
+  top: 52px;
+  left: 151px;
+  font-family: "Arial Hebrew-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .group-2 {
+  position: absolute;
+  width: 286px;
+  height: 48px;
+  top: 518px;
+  left: 231px;
+}
+
+.register .overlap-group-2 {
+  position: relative;
+  width: 284px;
+  height: 48px;
+  background-color: #fff1c1;
+  border-radius: 10px;
+}
+
+.register .text-wrapper-3 {
+  position: absolute;
+  top: 14px;
+  left: 95px;
+  font-family: "Arial Hebrew-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .frame {
+  width: 644px;
+  height: 48px;
+  padding: 17px 31px 17px 20px;
+  position: absolute;
+  top: 144px;
+  left: 51px;
+  background-color: #fff1c180;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.register .frame-2 {
+  width: 175px;
+  padding: 10px 20px 10px 10px;
+  position: relative;
+  margin-top: -10.5px;
+  margin-bottom: -10.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.register .text-wrapper-4 {
+  position: relative;
+  width: 60px;
+  height: 15px;
+  margin-top: -1px;
+  font-family: "Arial Hebrew-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .frame-wrapper {
+  width: 644px;
+  height: 48px;
+  padding: 17px 31px 17px 20px;
+  position: absolute;
+  top: 233px;
+  left: 50px;
+  background-color: #fff1c180;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.register .frame-3 {
+  width: 644px;
+  height: 48px;
+  padding: 17px 31px 17px 20px;
+  position: absolute;
+  top: 322px;
+  left: 50px;
+  background-color: #fff1c180;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.register .text-wrapper-5 {
+  position: relative;
+  width: 97px;
+  height: 15px;
+  margin-top: -1px;
+  font-family: "Arial Hebrew-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .component {
+  margin-top:750px;
+  margin-left:378px;
+  width: 644px;
+  height: 48px;
+  top: 373px;
+  left: 26px;
+}
+
+.register .frame-default {
+  height: 48px;
+  background-color: #fff1c180;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001a;
+}
+
+.register .frame-4 {
+  width: 644px;
+  height: 48px;
+  padding: 17px 31px 17px 20px;
+  position: absolute;
+  top: 322px;
+  left: 50px;
+  background-color: #fff1c180;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px 10px 10px;
+  position: relative;
+  top: 6px;
+  left: 20px;
+  background-color:#fff1c180;
+}
+
+.register .chevron-down {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  left: 560px;
+}
+
+.register .university-of {
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  top: 40px;
+  left: 622px;
+  object-fit: cover;
+}
+
+.register .text-wrapper-6 {
+  position: absolute;
+  width: 564px;
+  top: 257px;
+  left: 438px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.register .text-wrapper-7 {
+  position: absolute;
+  width: 454px;
+  top: 307px;
+  left: 494px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}

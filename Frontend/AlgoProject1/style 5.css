@@ -1,0 +1,104 @@
+.user {
+  background-color: #fff1c1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.user .div {
+  background-color: #fff1c1;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.user .university-of {
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  top: 40px;
+  left: 622px;
+  object-fit: cover;
+}
+
+.user .text-wrapper {
+  position: absolute;
+  width: 564px;
+  top: 257px;
+  left: 438px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.user .text-wrapper-2 {
+  position: absolute;
+  width: 454px;
+  top: 307px;
+  left: 494px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.user .group {
+  left: 216px;
+  position: absolute;
+  width: 467px;
+  height: 79px;
+  top: 512px;
+}
+
+.user .overlap-group {
+  position: relative;
+  height: 81px;
+  top: -1px;
+  left: -1px;
+  background-color: #ffe485;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.user .text-wrapper-3 {
+  position: absolute;
+  width: 248px;
+  top: 24px;
+  left: 109px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.user .overlap-wrapper {
+  left: 759px;
+  position: absolute;
+  width: 467px;
+  height: 79px;
+  top: 512px;
+}
+
+.user .text-wrapper-4 {
+  position: absolute;
+  width: 232px;
+  top: 24px;
+  left: 109px;
+  font-family: "Arial Hebrew Scholar-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
