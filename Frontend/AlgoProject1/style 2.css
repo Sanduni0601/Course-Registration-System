@@ -90,3 +90,7 @@ button[type="submit"]:hover {
 .tabcontent {
     display: none;
 }
+.error {
+    color: red;
+    font-size: 12px;
+}
